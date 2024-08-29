@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- link del icono delete seccionado. -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- link de la tipografia seleccionada. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <title>contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>contact++;</h1>
+         
+        <div class="form" id="form"> <!-- Formulario de datos. -->
+
+            <input type="text" id="name" placeholder="name">
+            <input type="text" id="surname" placeholder="surname">
+            <input type="text" id="phone" placeholder="phone">
+            <input type="text" id="address" placeholder="address">
+            
+            <button id="add-contact"> + </button>  <!-- Bonton para agregar contactos. -->
+            <input type="text" id="search" placeholder="search"> <!-- Barra de busqueda de contactos. -->
+                
+        </div>
+        <ul id="contact-list"></ul> <!-- Listado de contactos. -->
+        <ul id="mail-list"></ul>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Practica de ccambio de clases - Curso Khan Academy [1] -->
+    <script> 
+   
+        var bodyEl = document.querySelector("body");
+        bodyEl.style.backgroundColor = "#8A829E";
+
+        var h1El = document.querySelector("h1");
+        h1El.style.color = "#f2f2f7";
+
+        var contactListEl = document.getElementById("contact-list");
+        contactListEl.style.color = "#1b1d2d"; 
+
+        var contactListEl = document.getElementById("contact-list");
+        contactListEl.style.backgroundColor = "#8d85a1"; 
+
+    </script>
+</body>
+</html>
+
+<!--
+SRC:
+
+[1]
+
+Después de practicar con el precurso de Khan Academy, modifiqué el DOM cambiando los colores.
+Elegí el color "Future Dusk" seleccionado como el color de tendencia para 2025. 
+
+https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-modification/pt/changing-css-classes
+https://es.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-access/a/summary-dom-access-methods
+https://www.wgsn.com/en/blogs/introducing-our-colour-year-2025-future-dusk
+https://www.wgsn.com/en/wgsn/press/press-releases/wgsn-and-coloro-announce-color-year-2025-future-dusk
+
+-->
