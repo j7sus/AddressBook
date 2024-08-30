@@ -1,0 +1,113 @@
+html {
+    font-family: 'urbanist', Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #939696;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0%;
+}
+
+
+#form {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    width: 86%;
+  }
+
+  #name {
+    margin-top: 0px;
+  }
+
+  .form input {
+    font-family: 'urbanist';
+    width: 100%;
+    height: 30px;
+    background-color:  #8d85a1;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: 0;
+    border: 0;
+    color: white;
+    font-weight: bold;
+  }
+
+
+  /* autofill*/
+  input:-webkit-autofill,
+  textarea:-webkit-autofill,
+  select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #8d85a1 inset !important;
+    -webkit-text-fill-color: white !important;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 1.5rem;
+    
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    padding-right: 5px;  
+  }
+
+  h1 {
+    font-size: 5rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: whitesmoke;
+    font-weight:bold;
+    padding-bottom: 10px;
+  }
+
+  #add-contact {
+    font-size: 5rem;
+    font-weight: bold;
+    background:none;
+    color: whitesmoke;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+  }
+
+#contact-list {
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.fullname {
+    background-color: black;
+}
+
+/*
+SRC:
+
+    [Aliniacion de los div]
+    https://www.freecodecamp.org/espanol/news/como-centrar-un-div-con-css-10-maneras-diferentes/
+    https://www.freecodecamp.org/espanol/news/centrar-en-html-div-con-css/
+    https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container
+
+
+    [autofill]
+    https://dev.to/atndesign/a-trick-to-change-the-autocomplete-background-color-21ll
+
+*/
